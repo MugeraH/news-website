@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Pirata+One&display=swap");
+
+/* font-family: 'Bubblegum Sans', cursive;
+font-family: 'Pirata One', cursive; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bubblegum Sans", cursive;
+  color: white;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px;
+  background-color: orangered;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.navbar .search {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.navbar h1 {
+  font-family: "Pirata One", cursive;
+  font-size: 40px;
+}
+
+.navbar .social img{
+margin:0px 7px ;
+}
