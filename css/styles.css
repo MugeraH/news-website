@@ -10,13 +10,14 @@ font-family: 'Pirata One', cursive; */
 body {
   font-family: "Bubblegum Sans", cursive;
   color: white;
+  width: 100vw;
+
 }
 
 .icon {
   width: 30px;
   height: 30px;
   object-fit: contain;
-  border-radius: 50%;
 }
 .navbar {
   display: flex;
@@ -24,7 +25,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin: 30px;
-  background-color: orangered;
+  background-color: black;
   padding: 0px 10px;
   border-radius: 10px;
 }
@@ -38,8 +39,129 @@ body {
 .navbar h1 {
   font-family: "Pirata One", cursive;
   font-size: 40px;
+  color: #e14a32;
 }
 
-.navbar .social img{
-margin:0px 7px ;
+.navbar .social img {
+  margin: 0px 7px;
+}
+
+.container {
+  width: 100vw;
+  margin: 0px 40px;
+  display: flex;
+}
+.title {
+  background-color: #000;
+  color: #e14a32;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.main {
+  width: 75%;
+  height: 100%;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-news {
+  height: 310px;
+  width: 100%;
+  background-image: url("../images//news//food.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.8;
+}
+.main-news p {
+  align-self: center;
+  font-size: 30px;
+  margin: 80px 30px 0px 30px;
+}
+.card-news {
+  display: flex;
+  padding: 0px 10px;
+}
+
+.card-news .card1 {
+  width: 450px;
+  height: 150px;
+  background-image: url("../images/news/car.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  opacity: 0.9;
+}
+.card-news .card2 {
+  width: 450px;
+  height: 150px;
+  background-image: url("../images/news/code.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  opacity: 0.9;
+}
+.card-news .card3 {
+  width: 450px;
+  height: 150px;
+  background-image: url("../images//news/exercise.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  opacity: 0.9;
+}
+.card-news .card4 {
+  width: 450px;
+  height: 150px;
+  background-image: url("../images/news/holiday.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  opacity: 0.9;
+}
+.card-news .card5 {
+  width: 450px;
+  height: 150px;
+  background-image: url("../images/news/parenting.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  opacity: 0.9;
+}
+.card-news .card6 {
+  width: 450px;
+  height: 150px;
+  background-image: url("../images/news/savings.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px;
+  opacity: 0.9;
+}
+
+.card-news p {
+  padding: 10px;
+}
+
+.sidebar {
+  color: #000;
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar h2 {
+  color: #e14a32;
+}
+
+.sidebar .story p {
+  line-height: 15px;
+}
+.sidebar .story .time {
+  font-size: 13px;
+  color: rgb(73, 73, 73);
+  padding: 5px 10px;
 }
